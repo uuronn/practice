@@ -1,0 +1,195 @@
+body{
+    display: flex;
+    margin: 0px;
+}
+
+
+/*サイドメニュー */
+.menu{
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+
+}
+
+.menu p{
+    font-size: 56px;
+    margin: 12px 64px 64px 64px;
+}
+ul{
+    margin: 0px;
+    padding: 12px;
+    list-style: none;
+
+}
+li{
+    padding: 16px;
+
+}
+.footer{
+    padding-top: 120px;
+}
+
+
+/*トップページ*/
+
+.top{
+    position: relative;
+}
+.top_back{
+    position: absolute;
+
+}
+.top_img{
+    position: absolute;
+    left: 600px;
+}
+.top_title{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    font-size: 100px;
+    top: 380px;
+    left: 600px;
+    z-index: 99;
+    color: white;
+}
+
+.triangle{
+    position: absolute;
+    z-index: 10;
+    top: 700px;
+    width: 1700px;
+    height: 600px;
+    background: white;
+    transform: skewY(8deg);
+
+}
+
+
+
+/*MoRの紹介ページ*/
+
+.intro{
+    position: relative;
+
+}
+.intro_park{
+    position: absolute;
+
+    top: 860px;
+    z-index: 14;
+}
+.intro_font {
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    z-index: 80;
+    left: 400px;
+    top: 1100px;
+    right: 30px;
+}
+.intro_font span{
+    font-family: 'Cambria Math';
+    font-size: 300px;
+}
+small{
+    font-size:38px;
+}
+
+
+
+/*MoRの特徴ページ*/
+
+.feature{
+    position: relative;
+}
+.feature_park{
+    position: absolute;
+    z-index: 10;
+    top: 1780px;
+}
+.feature_black{
+    position: absolute;
+    top: 1780px;
+    z-index: 15;
+}
+.feature_title{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 1900px;
+    z-index: 20;
+    left: 820px;
+    font-size: 58px;
+    color: white;
+}
+.feature_explain_first{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 20;
+    top: 2100px;
+    left: 540px;
+}
+.feature_explain_second{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 20;
+    top: 2100px;
+    left: 1080px;
+}
+.feature_font_left{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    color: white;
+    z-index: 20;
+    left: 540px;
+    top: 2400px;
+}
+.feature_font_right{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    color: white;
+    z-index: 20;
+    left: 1080px;
+    top: 2400px;
+}
+.feature span{
+    width: 412px;
+    height: 72px;
+    display: inline-block;
+    font-size:32px;
+    padding-bottom:10px;
+}
+
+/* 著作権ページ */
+
+.bottom{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    
+}
+.bottom_back{
+    position: absolute;
+    top: 2620px;
+    z-index: 39;
+}
+.bottom_copy{
+    position: absolute;
+    z-index: 40;
+    font-size: 32px;
+    top: 3620px;
+    left: 900px;
+    color: white;
+}
+
+
+
