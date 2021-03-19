@@ -47,16 +47,16 @@ li{
 }
 .top_title{
     width: 1000px;
-    height: 500px;
+    height: 700px;
     position: absolute;
-    font-size: 100px;
-    top: 380px;
-    left: 600px;
+    font-size: 120px;
+    top: 240px;
+    left: 360px;
     z-index: 99;
     color: white;
 }
 
-.triangle{
+.top_triangle{
     position: absolute;
     z-index: 10;
     top: 700px;
@@ -66,7 +66,22 @@ li{
     transform: skewY(8deg);
 
 }
+.top_button{
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 1300px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: white;
 
+    
+}
+.top_button:hover{
+    background-color: blue;
+    transition: 1s;
+}
 
 
 /*MoRの紹介ページ*/
@@ -127,6 +142,39 @@ small{
     font-size: 58px;
     color: white;
 }
+.feature_number_1{
+    position: absolute;
+    z-index: 20;
+    top:2080px;
+    left: 420px;
+}
+.feature_number_2{
+    position: absolute;
+    z-index: 20;
+    top:2080px;
+    left: 980px;
+}
+.number1{
+    position: absolute;
+    font-size: 72px;
+    z-index: 21;
+    top:2020px;
+    left: 460px;
+    color: white;
+    
+}
+.number2{
+    position: absolute;
+    font-size: 72px;
+    z-index: 21;
+    top:2020px;
+    left: 1020px;
+    color: white;
+
+
+}
+
+
 .feature_explain_first{
     width: 300px;
     height: 300px;
@@ -174,20 +222,20 @@ small{
 .bottom{
     position: relative;
     width: 1000px;
-    height: 1000px;
-    
+    height: 100px
 }
 .bottom_back{
     position: absolute;
     top: 2620px;
     z-index: 39;
+    margin:0px;
 }
 .bottom_copy{
     position: absolute;
     z-index: 40;
     font-size: 32px;
     top: 3620px;
-    left: 900px;
+    left: 880px;
     color: white;
 }
 
